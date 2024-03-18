@@ -1,0 +1,119 @@
+15:38:11,511 root: 
+-----------------------------ARGUMENTS-----------------------------
+batch_size                  8
+optimizer                  Adam
+learning_rate                  2e-06
+use_amp                  False
+warmup                  False
+saved                  exp_classifier_new
+optimizer_method                  Adam
+scheduler_method                  StepLR
+early_stop                  True
+accum_step                  1
+
+15:39:16,281 root: 
+-----------------------------ARGUMENTS-----------------------------
+batch_size                  8
+optimizer                  Adam
+learning_rate                  2e-06
+use_amp                  False
+warmup                  False
+saved                  exp_classifier_new
+optimizer_method                  Adam
+scheduler_method                  StepLR
+early_stop                  True
+accum_step                  1
+
+16:22:11,396 root: 
+-----------------------------ARGUMENTS-----------------------------
+batch_size                  8
+optimizer                  Adam
+learning_rate                  2e-06
+use_amp                  False
+warmup                  False
+saved                  exp_classifier_new
+optimizer_method                  Adam
+scheduler_method                  StepLR
+early_stop                  True
+accum_step                  1
+
+16:23:59,222 root: 
+-----------------------------ARGUMENTS-----------------------------
+batch_size                  8
+optimizer                  Adam
+learning_rate                  2e-06
+use_amp                  False
+warmup                  False
+saved                  exp_classifier_new
+optimizer_method                  Adam
+scheduler_method                  StepLR
+early_stop                  True
+accum_step                  1
+
+16:24:01,928 root: current learning rate: 2e-06
+16:24:16,888 root: ------------------------- epoch: 0 -------------------------
+16:24:16,888 root: on train data
+16:24:16,888 root: loss: 0.5442923903465271
+16:24:16,888 root: precision: 0.7649370431900024
+16:24:16,889 root: ------------------------- epoch: 0 -------------------------
+16:24:16,889 root: on valid data
+16:24:16,889 root: loss: 0.5597730875015259
+16:24:16,889 root: precision: 0.8026062250137329
+16:24:33,546 root: 
+-----------------------------ARGUMENTS-----------------------------
+batch_size                  8
+optimizer                  Adam
+learning_rate                  2e-06
+use_amp                  False
+warmup                  False
+saved                  exp_classifier_new
+optimizer_method                  Adam
+scheduler_method                  StepLR
+early_stop                  True
+accum_step                  1
+
+16:24:33,907 root: current learning rate: 2e-06
+16:24:46,885 root: ------------------------- epoch: 0 -------------------------
+16:24:46,885 root: on train data
+16:24:46,886 root: loss: 0.5994563102722168
+16:24:46,886 root: precision: 0.6886792778968811
+16:24:46,886 root: ------------------------- epoch: 0 -------------------------
+16:24:46,886 root: on valid data
+16:24:46,886 root: loss: 0.625410258769989
+16:24:46,886 root: precision: 0.6018018126487732
+16:24:47,372 root: current learning rate: 2e-06
+16:25:00,286 root: ------------------------- epoch: 1 -------------------------
+16:25:00,286 root: on train data
+16:25:00,286 root: loss: 0.5041234493255615
+16:25:00,286 root: precision: 0.7838050127029419
+16:25:00,287 root: ------------------------- epoch: 1 -------------------------
+16:25:00,287 root: on valid data
+16:25:00,287 root: loss: 0.5068817734718323
+16:25:00,287 root: precision: 0.8247104287147522
+16:25:00,770 root: current learning rate: 2e-06
+16:25:13,806 root: ------------------------- epoch: 2 -------------------------
+16:25:13,806 root: on train data
+16:25:13,807 root: loss: 0.43047645688056946
+16:25:13,807 root: precision: 0.8176101446151733
+16:25:13,807 root: ------------------------- epoch: 2 -------------------------
+16:25:13,807 root: on valid data
+16:25:13,808 root: loss: 0.447398841381073
+16:25:13,808 root: precision: 0.8048906922340393
+16:25:14,314 root: current learning rate: 2e-06
+16:25:27,377 root: ------------------------- epoch: 3 -------------------------
+16:25:27,377 root: on train data
+16:25:27,377 root: loss: 0.3688967823982239
+16:25:27,377 root: precision: 0.8466981053352356
+16:25:27,377 root: ------------------------- epoch: 3 -------------------------
+16:25:27,378 root: on valid data
+16:25:27,378 root: loss: 0.41383323073387146
+16:25:27,378 root: precision: 0.7971686720848083
+16:25:27,883 root: current learning rate: 2e-06
+16:25:41,75 root: ------------------------- epoch: 4 -------------------------
+16:25:41,75 root: on train data
+16:25:41,75 root: loss: 0.31874653697013855
+16:25:41,75 root: precision: 0.865566074848175
+16:25:41,76 root: ------------------------- epoch: 4 -------------------------
+16:25:41,76 root: on valid data
+16:25:41,76 root: loss: 0.4002273380756378
+16:25:41,76 root: precision: 0.8320785760879517
