@@ -14,6 +14,11 @@ If possible, install the latest version of PyTorch with Cuda.  conda install pyt
 
 Run jupyter lab
 
+For Non-Cuda Setup:
+delete all torch requirments from requirments.txt
+Run conda install pytorch torchvision torchaudio cpuonly -c pytorch
+Run pip install torchtext
+
 ![Description of Image](resource/AdaRex_loc.png)
 
 ![Description of Image](resource/AdaReX.png)
