@@ -10,6 +10,8 @@ Install pip with conda install pip
 
 Run the requirments.txt.  pip install -r requirements.txt
 
+If possible, install the latest version of PyTorch with Cuda.  conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+
 Run jupyter lab
 
 ![Description of Image](resource/AdaRex_loc.png)
