@@ -1,4 +1,4 @@
-# AdaRex
+# AdaRex (From Original README)
 This is the repository containing the code for the SIGIR-AP 2023 paper "AdaReX: Cross-Domain, Adaptive and Explainable Recommender System". 
 
 We propose AdaReX (Adaptive eXplainable Recommendation), to model auxiliary and target domains simultaneously. By performing specific tasks in respective domains and their interconnection via a discriminator model, AdaReX allows the aspect sequences to learn common knowledge across different domains.
@@ -11,8 +11,6 @@ We propose AdaReX (Adaptive eXplainable Recommendation), to model auxiliary and 
 * Install pip with: _conda install pip_
 
 * Run the requirments.txt:  _pip install -r requirements.txt_
-
-* Create a saved folder within the project directory: _mkdir saved_
 
 * Run: _jupyter lab_
 
@@ -30,11 +28,10 @@ We propose AdaReX (Adaptive eXplainable Recommendation), to model auxiliary and 
 * From train_classifier.ipynb
     * Remove: _torch.cuda.current_device()_
     * Remove: _accelerator="cuda:0"_
-    * Replace: _model.validIter(test_dataloader, "cuda:0", ["loss", "precision"], False)_ with _model.validIter(test_dataloader, ["loss", "precision"], False)_
+    * Replace: _model.validIter(test_dataloader, "cuda:0", ["loss", "precision"], False)_ with _model.validIter(test_dataloader, "cpu", ["loss", "precision"], False)_
 
 * Run: _conda install pytorch torchvision torchaudio cpuonly -c pytorch_
 * Run: _pip install torchtext_
-* Create a saved folder within the project directory: _mkdir saved_
 * _jupyter lab_
 * Go to Run-> Restart Kernel and Run All Cells
 
