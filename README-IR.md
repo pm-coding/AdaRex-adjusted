@@ -3,6 +3,9 @@ This is the repository containing the code for the SIGIR-AP 2023 paper "AdaReX: 
 
 We propose AdaReX (Adaptive eXplainable Recommendation), to model auxiliary and target domains simultaneously. By performing specific tasks in respective domains and their interconnection via a discriminator model, AdaReX allows the aspect sequences to learn common knowledge across different domains.
 
+# Original Code and Changes
+The original code can be found at https://github.com/YuYi0/AdaRex/, and the original paper can be found at https://dl.acm.org/doi/10.1145/3624918.3625331 . We have not made substantial changes to how the code runs so far; any adjustments would be to the arguments, such as batch size, when creating the Trainer and Processor.
+
 # Cuda Setup
 * Run: _git clone https://github.com/pm-coding/AdaRex-adjusted.git_
 
